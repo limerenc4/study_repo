@@ -60,7 +60,7 @@ export default{
     <!-- 动态事件 -->
     <button v-on:[mouseEvent] = "attributeName = 'class'"> {{ mouseEventButtonText }}</button>
     <button @click="changeMouseEvent"> 改变事件 </button>
-    <button @click="changeMouseEvent"> 改变事件 </button>
+    test2
   </div>
 </template>
 
